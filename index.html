@@ -4,9 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style/style.css">
+  <script defer src="./data/script.js"></script>
 
   <title>Frontend Mentor | Expenses chart component</title>
 
@@ -26,50 +31,50 @@
   <main>
     <h3>Spending - Last 7 days</h3>
 
-    <div>
-      <div>
-        <div></div>
+    <div class="days-container">
+      <div class="days-graph">
+        <div class="graph-column column-01"></div>
         <span>mon</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-02"></div>
         <span>tue</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-03 active"></div>
         <span>wed</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-04"></div>
         <span>thu</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-05"></div>
         <span>fri</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-06"></div>
         <span>sat</span>
       </div>
 
-      <div>
-        <div></div>
+      <div class="days-graph">
+        <div class="graph-column column-07"></div>
         <span>sun</span>
       </div>
     </div>
 
-    <div>
-      <div>
+    <div class="data-container">
+      <div class="total-container">
         <p>Total this month</p>
         <span>$478.33</span>
       </div>
 
-      <div>
+      <div class="percent-container">
         <span>+2.4%</span>
         <p>from last month</p>
       </div>
