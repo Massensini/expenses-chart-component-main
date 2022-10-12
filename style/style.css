@@ -81,7 +81,7 @@ main h3 {
 }
 
 .days-container {
-    height: 180px;
+    height: 200px;
     margin-top: 20px;
 
     display: flex;
@@ -91,10 +91,27 @@ main h3 {
 
 .days-graph {
     width: 50px;
+    height: 200px;
 
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-end;
+}
+
+.value-day {
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--very-pale-orange);
+    background-color: var(--dark-brown);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.value-day-active {
+    visibility: visible;
 }
 
 .graph-column {
